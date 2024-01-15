@@ -1,0 +1,14 @@
+.col{
+		overflow: hidden;
+	}
+	 #imagenes1 {
+        text-align: center;
+    }
+    .zoomable{
+        margin: 5px;
+    	transition: 0.5s;
+    	object-fit: cover;
+    }
+    .zoomable:hover{
+    	transform: scale(1.1);
+    }
