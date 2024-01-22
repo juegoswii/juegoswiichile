@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<style type="text/css">
+  p{
+    text-align: center;
+  }
+</style>
 <html lang="es">
 <head>
 	<meta charset="utf-8">
@@ -15,7 +20,27 @@
   </script>
 </head>
 <body class="bg-dark text-white">
-<nav class="navbar navbar-expand-md navbar-dark bg-dark text-white">
+  <div id="miModal" class="modal fade text-dark">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Actualización de la página v1.1</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Solo se colocó los titulos de cada juego abajo de las portadas.<br>
+          Si quieres buscar, con el control + F de tu teclado, próximamente agregaré un buscador
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.onload = function() {
+      var miModal = new bootstrap.Modal(document.getElementById('miModal'));
+      miModal.show();
+    };
+  </script>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark text-white">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="imagenes/logo/gc.png" alt="Gamecube"width="50" height="50"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,132 +71,171 @@
 		<div class="row">
 			<div class="col-2 col-lg-2">
 				<a href="007_everything.html"><img src="imagenes/gc/indice/007_everythingornothing.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>007 Todo o Nada</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="batman.html"><img src="imagenes/gc/indice/batman_begins.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Batman Begins</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="charlie.html"><img src="imagenes/gc/indice/charlie_factory.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Charlie y la Fábrica de Chocolate</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="fifa-street-2.html"><img src="imagenes/gc/indice/fifa-street-2.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Fifa Street</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="f-zero.html"><img src="imagenes/gc/indice/F-Zero_GX.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>F-Zero-GX</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="luigi-mansion.html"><img src="imagenes/gc/indice/luigi_mansion.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Luigi´s Mansion</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-2 col-lg-2">
 				<a href="mario-kart.html"><img src="imagenes/gc/indice/mario_kart.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>Mario Kart Double Dash</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="mario-party-4.html"><img src="imagenes/gc/indice/mario_party_4.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Mario Party 4</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="mario-party-5.html"><img src="imagenes/gc/indice/mario_party_5.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Mario Party 5</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="mario-party-6.html"><img src="imagenes/gc/indice/mario_party_6.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Mario Party 6</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="mario-party-7.html"><img src="imagenes/gc/indice/mario_party_7.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Mario Party 7</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="megaman-x-collection.html"><img src="imagenes/gc/indice/megaman_X_collection.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Megaman X Collection</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-2 col-lg-2">
 				<a href="metroid-prime.html"><img src="imagenes/gc/indice/metroid.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>Metroid Prime</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="naruto-clash-ninja.html"><img src="imagenes/gc/indice/naruto_clash_ninja.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Naruto Clash of Ninja</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="naruto-clash-ninja-2.html"><img src="imagenes/gc/indice/naruto_clash_ninja_2.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Naruto Clash of Ninja 2</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="nfs-carbon.html"><img src="imagenes/gc/indice/nfs_carbon.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Need for Speed Carbon</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="nfs-mostwanted.html"><img src="imagenes/gc/indice/nfs_mostwanted.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Need for Speed Most Wanted</p>
 			</div>
 			<div class="col-2 col-lg-2">
 				<a href="nfs-underground.html"><img src="imagenes/gc/indice/nfs_undeground.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Need for Speed Undeground</p>
 			</div>
 		</div>
 		<div class="row">
       <div class="col-2 col-lg-2">
         <a href="nfs-underground-2.html"><img src="imagenes/gc/indice/nfs_underground2.jpg"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Need for Speed Underground 2</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="prince-persia-sands-time.html"><img src="imagenes/gc/indice/prince_persia_sands_time.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>Prince of Persia: The Sands of Time</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="prince-persia-warrior-within.html"><img src="imagenes/gc/indice/prince_persia_warrior_within.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Prince of Persia: Warrior Within</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="rayman-3.html"><img src="imagenes/gc/indice/rayman_3.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Rayman 3</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="resident-evil-2.html"><img src="imagenes/gc/indice/resident_evil_2.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Resident Evil 2</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="resident-evil-3.html"><img src="imagenes/gc/indice/resident_evil_3.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Resident Evil 3: Nemesis</p>
       </div>
     </div>
     <div class="row">
       <div class="col-2 col-lg-2">
         <a href="resident-evil-4.html"><img src="imagenes/gc/indice/resident_evil_4.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Resident Evil 4</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="resident-evil-code-veronica-x.html"><img src="imagenes/gc/indice/resident_evil_code_veronica.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>Resident Evil Code Veronica X</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="resident-evil-zero.html"><img src="imagenes/gc/indice/resident_evil_zero.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Resident Evil Zero</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="simpsons-hit-run.html"><img src="imagenes/gc/indice/simpsons_hit_run.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>The Simpsons: Hit & Run</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="sonic-adventure-2.html"><img src="imagenes/gc/indice/sonic_adventure_2_battle.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Sonic Adventure 2 Battle</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="sonic-adventure-dx.html"><img src="imagenes/gc/indice/sonic_adventure_DX.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Sonic Adventure DX Director's Cut</p>
       </div>
     </div>
     <div class="row">
       <div class="col-2 col-lg-2">
         <a href="sonic-mega-collection.html"><img src="imagenes/gc/indice/sonic_mega_collection.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Sonic Mega Collection</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="spawn-armageddon.html"><img src="imagenes/gc/indice/spawn_armageddon.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>Spawn Armageddon</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="star-fox-adventures.html"><img src="imagenes/gc/indice/starfox_adventures.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Star Fox Adventures</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="super-mario-strikers.html"><img src="imagenes/gc/indice/super_mario_strikers.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Super Mario Strikers</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="super-mario-sunshine.html"><img src="imagenes/gc/indice/super_mario_sunshine.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Super Mario Sunshine</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="super-smash-bros-melee.html"><img src="imagenes/gc/indice/super_smash_bros_melee.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Super Smash Bros Melee</p>
       </div>
     </div>
     <div class="row">
       <div class="col-2 col-lg-2">
         <a href="tom-clancy-rainbow-six-3.html"><img src="imagenes/gc/indice/Tom_Clancy's_Rainbow_Six_3.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Tom Clancy's Rainbow Six 3</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="turok-evolution.html"><img src="imagenes/gc/indice/turo.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>Turok Evolution</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href="zelda-twilight.html"><img src="imagenes/gc/indice/zelda_twilight.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>The Legend of Zelda: Twilight Princess</p>
       </div>
       <div class="col-2 col-lg-2">
         <a href=""><img src=""class="img-fluid"></a>
