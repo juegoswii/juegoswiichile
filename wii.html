@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<style type="text/css">
+  p{
+    text-align: center;
+  }
+</style>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Juegos Gamecube</title>
+	<link rel="icon" type="image/png" href="imagenes/logo/wii.png"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/transition.css" rel="stylesheet">
+	<script>
+    document.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    });
+  </script>
+</head>
+<body class="bg-dark text-white">
+  <div id="miModal" class="modal fade text-dark">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Juegos Añadidos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          22-01-2024: Along in the Dark<br>
+          22-01-2024: Avatar: The Last Airbender<br>
+          22-01-2024: Back in the Future: The Game<br>
+          22-01-2024: Band Hero<br>
+          22-01-2024: Battle of the Bands<br>
+          22-01-2024: Ben 10 Omniverse<br>
+          22-01-2024: Bleach: Shattered Blade<br>
+          22-01-2024: Call of Duty: Black Ops<br>
+          22-01-2024: Call of Duty: Modern Warfare [Reflex Edition]<br>
+          22-01-2024: Calling<br>
+          22-01-2024: Cartoon Network Punch Time Explosion XL<br>
+          22-01-2024: Coraline
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.onload = function() {
+      var miModal = new bootstrap.Modal(document.getElementById('miModal'));
+      miModal.show();
+    };
+  </script>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark text-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="imagenes/logo/wii.png" alt="Gamecube"width="50" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Juegos Gamecube</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Juegos Wii</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="utilidades.html">Utilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">Preguntas Frecuentes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <img src="imagenes/banner/Leaderboard.png" class="img-fluid" width="1920">
+  <div class="container">
+    <div class="row">
+      <div class="col-2 col-lg-2">
+        <a href="alone-in-the-dark.html"><img src="imagenes/wii/indice/alonedark.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>Alone in the Dark</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="avatar-the-last-airbender.html"><img src="imagenes/wii/indice/avatar_airbender.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Avatar: The Last Airbender</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="back-in-the-future.html"><img src="imagenes/wii/indice/back-future.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Back in the Future: The Game</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="band-hero.html"><img src="imagenes/wii/indice/band-hero.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Band Hero</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="battle-of-the-bands.html"><img src="imagenes/wii/indice/battle-bands.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Battle of the Bands</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="ben-10-omniverse.html"><img src="imagenes/wii/indice/ben-10.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Ben 10: Omniverse</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-2 col-lg-2">
+        <a href="bleach-shattered-blade.html"><img src="imagenes/wii/indice/bleach.png" class="img-fluid img-thumbnail zoomable"></a>
+        <p>Bleach: Shattered Blade</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="call-of-duty-black-ops.html"><img src="imagenes/wii/indice/call-duty-black.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Call of Duty: Black Ops</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="call-of-duty-modern-warfare.html"><img src="imagenes/wii/indice/call-duty-modern.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Call of Duty: Modern Warfare [Reflex Edition]</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="calling.html"><img src="imagenes/wii/indice/calling.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Calling</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="cartoon-network-punch-time-explosion-xl.html"><img src="imagenes/wii/indice/cartoon-network.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Cartoon Network Punch Time Explosion XL</p>
+      </div>
+      <div class="col-2 col-lg-2">
+        <a href="coraline.html"><img src="imagenes/wii/indice/coraline.png"class="img-fluid img-thumbnail zoomable"></a>
+        <p>Coraline</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
