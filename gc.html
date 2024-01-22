@@ -15,6 +15,34 @@
   </script>
 </head>
 <body class="bg-dark text-white">
+  <div id="miModal" class="modal fade text-dark">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Bienvenido a la página</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>He añadido juegos de Wii para el publico, en el apartado de Wii, actualizaré que juegos agregué.<br><br>
+          Esta página NO tendrá publicidad, ni tampoco acortadores ya que hay gente que le molesta eso e incluso fastidia, además de que los acortadores tienen virus, por lo tanto los links de descargas estarán de forma directa por google drive y próximamente en terabox.<br><br>
+          Te recomiendo que antes que interactues con la página que vayas a las preguntas frecuentes <a href="faq.html">pinchando aqui</a><br><br>
+          Gracias a las personas que aportaron con este proyecto, por el diseño, creditos a: Otthow Müñękithø Cørtěz<br>
+            Metete a su comunidad de Facebook.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-danger" href="https://www.facebook.com/groups/146195918420840" role="button">Ir a su comunidad</a></p>
+          <a class="btn btn-danger" href="#" role="button" data-bs-dismiss="modal">Ir a la página</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.onload = function() {
+      var miModal = new bootstrap.Modal(document.getElementById('miModal'));
+      miModal.show();
+    };
+  </script>
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark text-white">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="imagenes/logo/gc.png" alt="Gamecube"width="50" height="50"></a>
@@ -27,7 +55,7 @@
             <a class="nav-link active" aria-current="page" href="#">Juegos Gamecube</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="access_wii.html">Juegos Wii</a>
+            <a class="nav-link" href="wii.html">Juegos Wii</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="utilidades.html">Utilidades</a>
