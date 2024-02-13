@@ -9,8 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $asunto = "Pedido de $nombre";
 
-    $cuerpo = "Artista: $artista\n";
-    $cuerpo .= "Cancion:$cancion\n";
+    $cuerpo .= "Juego: $nombrejuego\n";
     $cuerpo .= "Consola: $opciones\n";
     $cuerpo .= "Correo: $email\n";
 
